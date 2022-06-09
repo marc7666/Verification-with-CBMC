@@ -14,4 +14,3 @@ int main( void ) {
   __CPROVER_assert((q == D/d), "q is the quotient");
   __CPROVER_assert((r == d%d), "r is the reminder");
 }
-
